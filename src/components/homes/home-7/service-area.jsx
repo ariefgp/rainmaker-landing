@@ -12,20 +12,20 @@ const service_data = [
     {
         id: 1,
         icon: service_icon_1,
-        title: "Martket Analysis",
-        sm_des: <>Place isn't form together. Male night light. Days created firmament meat</>,
+        title: "Future-Ready Platform",
+        sm_des: <>Rainmaker is built for tomorrow's insurance market, keeping you ahead with AI-driven strategies.</>,
     },
     {
         id: 2,
         icon: service_icon_2,
-        title: "Software Design",
-        sm_des: <>Place isn't form together. Male night light. Days created firmament meat</>
+        title: "Scalable Solutions",
+        sm_des: <>From small teams to large enterprises, Rainmaker scales with your business, ensuring you're always at peak performance.</>
     },
     {
         id: 3,
         icon: service_icon_3,
-        title: "Software Developing",
-        sm_des: <>Place isn't form together. Male night light. Days created firmament meat</>
+        title: "Empowering Ecosystem",
+        sm_des: <>Our platform is more than technology—it's a community dedicated to supporting and celebrating every agent's success.</>
     },
 ]
  
@@ -42,8 +42,8 @@ const ServiceArea = ({style_fancy}) => {
                         <div className="row">
                             <div className="col-xl-6 offset-xl-3">
                                 <div className="section-title text-center mb-70">
-                                    <h2>How It Works</h2>
-                                    <p>Gathered was to yielding god heaven lights about void thing.</p>
+                                    <h2>Why Choose Us?</h2>
+                                    {/* <p>Gathered was to yielding god heaven lights about void thing.</p> */}
                                 </div>
                             </div>
                         </div>                    
@@ -60,7 +60,7 @@ const ServiceArea = ({style_fancy}) => {
                                     <p>{item.sm_des}</p>
                                 </div>
                                 <div className="how-work-link">
-                                    <Link href="/service-details">Read more</Link>
+                                    <Link href="#">Read more</Link>
                                 </div>
                             </div>
                         </div>                    
