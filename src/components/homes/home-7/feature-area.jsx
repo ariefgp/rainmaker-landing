@@ -9,20 +9,20 @@ const feature_data = [
     {
         id: 1,
         icon: feature_icon_1,
-        title: "Cloud Compatibility",
-        sm_des: <>Man fruit moving fourt moving multiply so years rule is not It after you also do seed grass that so which grass fowl him</>,
+        title: "AI-Powered Chatbot",
+        sm_des: <>Our AI chatbot eliminates the 'lack of product knowledge' excuse, making every agent a top seller.</>,
     },
     {
         id: 2,
         icon: feature_icon_2,
-        title: "Advance Security",
-        sm_des: <>Man fruit moving fourt moving multiply so years rule is not It after you also do seed grass that so which grass fowl him</>,
+        title: "Lead Generation & Profiling",
+        sm_des: <>Master sales approaches with our AI-guided lead generation, nurturing prospects into customers.</>,
     },
     {
         id: 3,
         icon: feature_icon_3,
-        title: "Dedicated Support",
-        sm_des: <>Man fruit moving fourt moving multiply so years rule is not It after you also do seed grass that so which grass fowl him</>,
+        title: "Sales Activity Builder",
+        sm_des: <>Plan and track your sales activities effortlessly, building habits that lead to success.</>,
     },
 ]
 
@@ -34,8 +34,8 @@ const FeatureArea = () => {
                     <div className="row">
                         <div className="col-xl-6 offset-xl-3">
                             <div className="section-title text-center mb-70">
-                                <h2>Software Feature</h2>
-                                <p>Gathered was to yielding god heaven lights about void thing.</p>
+                                <h2>Our Solution</h2>
+                                <p>Rainmaker: Where Advanced Technology Meets Insurance Sales Mastery</p>
                             </div>
                         </div>
                     </div>
