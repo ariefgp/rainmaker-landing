@@ -17,13 +17,19 @@ const HeaderThree = ({style_7}) => {
                         <div className="row align-items-center">
                             <div className="col-xl-2 col-lg-2">
                                 <div className="logo">
-                                    <Link href="/"> <img src="assets/img/logo/logo.png" alt="theme-pure" /> </Link>
+                                    <Link href="/"> <img src="assets/img/logo/logo.png" alt="rainmaker" /> </Link>
                                 </div>
                             </div>
                             <div className="col-xl-8 col-lg-8 position-static">
                                 <div className={`main-menu ${style_7 ? "" : "pink-menu"} text-center d-none d-lg-block`}>
                                     <nav id="mobile-menu">
-                                    <NavMenu />  
+                                    {/* <NavMenu />   */}
+                                    <ul>
+                                        <li className='static'> <Link href="#">Home</Link> </li>
+                                        <li className='static'> <Link href="#">Our Solution</Link> </li>
+                                        <li className='static'> <Link href="#">Why Choose Us</Link> </li>
+                                        <li className='static'> <Link href="#">Pricing</Link> </li>
+                                    </ul>
                                     </nav>
                                 </div>
                                 <div className="mobile-menu mean-container d-lg-none">

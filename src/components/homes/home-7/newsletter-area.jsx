@@ -13,7 +13,7 @@ const NewsletterArea = () => {
                     <div className="row">
                         <div className="col-xl-8 offset-xl-2">
                             <div className="section-title text-center mb-70">
-                                <h2>Experience the most simple way to manage business</h2>
+                                <h3>Subscribe for the latest on AI advancements, sales strategies, and success stories.</h3>
                             </div>
                         </div>
                     </div>

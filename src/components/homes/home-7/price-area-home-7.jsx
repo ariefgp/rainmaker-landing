@@ -8,58 +8,54 @@ const pricing_data = [
         id: 1,
         active: "",
         category: "Standard",
-        price: 20,
+        price: 10,
         features: [
-            "15GB Cloud Storage",
-            "Unlimited Account",
-            "15GB Storage",
-            "Sale After Service",
-            "3 Host Domain Service",
+            "Monthly Payment",
+            "1500 chat",
+            "Regular Customer Service",
             "24/7 Support",
         ],
     },
     {
         id: 2,
         active: "active",
-        category: "Professional",
-        price: 30,
+        category: "Premium",
+        price: 25,
         features: [
-            "25GB Cloud Storage",
-            "Unlimited Account",
-            "15GB Storage",
-            "Sale After Service",
-            "3 Host Domain Service",
+            "Monthly Payment",
+            "Unlimited chat",
+            "Priority Customer Service",
             "24/7 Support",
         ],
     },
-    {
-        id: 3,
-        active: "",
-        category: "Business",
-        price: 40,
-        features: [
-            "35GB Cloud Storage",
-            "Unlimited Account",
-            "15GB Storage",
-            "Sale After Service",
-            "3 Host Domain Service",
-            "24/7 Support",
-        ],
-    },
-    {
-        id: 4,
-        active: "",
-        category: "Ultimate",
-        price: 100,
-        features: [
-            "100GB Cloud Storage",
-            "Unlimited Account",
-            "15GB Storage",
-            "Sale After Service",
-            "3 Host Domain Service",
-            "24/7 Support",
-        ],
-    },
+    // {
+    //     id: 3,
+    //     active: "",
+    //     category: "Business",
+    //     price: 40,
+    //     features: [
+    //         "35GB Cloud Storage",
+    //         "Unlimited Account",
+    //         "15GB Storage",
+    //         "Sale After Service",
+    //         "3 Host Domain Service",
+    //         "24/7 Support",
+    //     ],
+    // },
+    // {
+    //     id: 4,
+    //     active: "",
+    //     category: "Ultimate",
+    //     price: 100,
+    //     features: [
+    //         "100GB Cloud Storage",
+    //         "Unlimited Account",
+    //         "15GB Storage",
+    //         "Sale After Service",
+    //         "3 Host Domain Service",
+    //         "24/7 Support",
+    //     ],
+    // },
 ]
 
 const PriceAreaHomeSeven = ({style_price}) => {
@@ -74,19 +70,19 @@ const PriceAreaHomeSeven = ({style_price}) => {
                         <div className="col-xl-6 offset-xl-3">
                             <div className="section-title text-center mb-70">
                                 <h2>Pricing Plan</h2>
-                                <p>Gathered was to yielding god heaven lights about void thing.</p>
+                                <p>Unlock the full potential of your sales team with our affordable, scalable pricing plans.</p>
                             </div>
                         </div>
                     </div>
                     <div className="row">
                         {pricing_data.map((item, i) => 
-                            <div key={i} className="col-xl-3 col-lg-6 col-md-6">
+                            <div key={i} className="col-xl-6 col-lg-6 col-md-6">
                                 <div className={`price-box ${item.active} text-center mb-30`}>
                                     <div className="price-header mb-35">
                                         <Image src={price_icon} alt="theme-pure" />
                                         <h3>{item.category}</h3>
                                         <div className="price-text">
-                                            <h4>${item.price}/<span>month</span></h4>
+                                            <h4>${item.price}/<span>user</span></h4>
                                         </div>
                                     </div>
                                     <div className="price-plan-list">

@@ -67,14 +67,14 @@ const Footer = ({home_2, style_4, footer_bg, no_style, style_footer_el}) => {
                                         <Link href="/"> 
                                             <Image src={footer_logo} alt="theme-pure" />
                                         </Link>
-                                        <p>Winged moving moveth created for shall and a divide the their days male midst shall hath doesn't won't for. Midst life.Over a great night. Green upon years rule ying.</p>
+                                        <p>Rainmaker is the future of insurance sales in Indonesia, designed to empower agents and companies alike. With a focus on AI-driven insights, we optimize sales strategies for unparalleled growth and success</p>
                                     </div>
                                     <div className="footer-social">
                                         <SocialLinks /> 
                                     </div>
                                 </div>
                             </div>
-                            {footer_data.map((item, i)  => 
+                            {/* {footer_data.map((item, i)  => 
                                 <div key={i} className="col-xl-2 col-lg-3 col-md-4">
                                     <div className="footer-widget mb-40">
                                         <h3>{item.title}</h3>
@@ -89,7 +89,7 @@ const Footer = ({home_2, style_4, footer_bg, no_style, style_footer_el}) => {
                                         </ul>
                                     </div>
                                 </div>
-                            )} 
+                            )}  */}
                         </div>
                     </div>
                 </div>
