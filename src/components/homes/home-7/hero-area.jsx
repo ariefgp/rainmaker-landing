@@ -11,9 +11,9 @@ import hero_shape_5 from "@assets/img/shape/shape5.png";
 import hero_shape_6 from "@assets/img/shape/shape6.png";
  
 const hero_content = {
-    title_1:  "Advanced",
-    title_2: "Future Software Made Simple",
-    info: <>Herb fill fowl fourth they're were whales Don it first green Years to  seasons seed behold fruitful let gathering good</>, 
+    title_1:  "Revolutionize",
+    title_2: "Your Insurance Sales Today",
+    info: <>Unleash the Potential of Every Agent with Rainmaker's AI</>, 
 }
 const {title_1, title_2, info} = hero_content
 
@@ -41,7 +41,7 @@ const HeroArea = () => {
                                     <p className="wow fadeInUp animated" data-wow-delay="0.9s">
                                         {info}
                                     </p>
-                                    <Link href="/register" className="x-btn wow fadeInUp animated" data-wow-delay="1.5s">Free trial</Link>
+                                    <Link href="/register" className="x-btn wow fadeInUp animated" data-wow-delay="1.5s">Discover How</Link>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-6 offset-xl-1">
