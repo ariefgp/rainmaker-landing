@@ -6,9 +6,8 @@ import access_img from "@assets/img/bg/right-img.png";
 
 
 const access_2_content = {
-    title: "Effortlessly manage  all your information",
-    sm_des: <>Make fly forth also won't. Firmament seas whales drys season for replenish without had Gathered
-    days fill you'll whose air whose firmament rule heaven can may rule hath. All of unto beginni ad Light. Were blessed plant</>,
+    title: <> The Future of <br /> Insurance Sales </>,
+    sm_des: <> At Rainmaker, we're pioneering the next wave of insurance sales empowerment. Leveraging advanced AI, we provide personalized, scalable solutions that drive sales and agent satisfaction to new heights. </>,
 }
 const {title, sm_des} = access_2_content
 

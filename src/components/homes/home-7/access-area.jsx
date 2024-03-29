@@ -3,14 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 
 import access_shape_1 from "@assets/img/shape/shape6.png";
-import access_img from "@assets/img/bg/social-bg.png";
+import access_img from "@assets/img/bg/right-img.png";
 import access_icon from "@assets/img/icon/access-icon.png";
 
 const access_content = {
-  title: <> Easy To <br /> Access All Platform </>,
-  sm_des: <>  Make fly forth also won't. Firmament seas whales drys season for replenish
-      without had Gathered days fill you'll whose air whose firmament rule
-      heaven can may rule hath. All of unto beginni ad Light. Were blessed plant
+  title: <> The Future of <br /> Insurance Sales </>,
+  sm_des: <>  At Rainmaker, we're pioneering the next wave of insurance sales empowerment. Leveraging advanced AI, we provide personalized, scalable solutions that drive sales and agent satisfaction to new heights.
     </> ,
 };
 const { title, sm_des } = access_content;
