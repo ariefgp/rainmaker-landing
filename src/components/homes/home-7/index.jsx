@@ -16,13 +16,13 @@ const HomeSeven = () => {
         <>
         <HeaderThree style_7={true} /> 
         <main>
-            <HeroArea /> 
-            <ServiceArea /> 
-            <AccessArea /> 
-            <FeatureArea /> 
+            <HeroArea />  
+            <FeatureArea />
+            {/* <AccessArea />  */}
             <AccessAreaTwo />
+            <ServiceArea /> 
             <PriceAreaHomeSeven />
-            <TestimonialArea />
+            {/* <TestimonialArea /> */}
             <BrandArea />
             <NewsletterArea />
         </main>  
